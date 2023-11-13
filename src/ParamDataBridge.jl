@@ -76,6 +76,7 @@ function delete_data!(row, df, folder_path)
 end
 
 
+
 function merge_data!(row_indices::Vector{Int}, df::DataFrame, folder_path::String)
     
     if length(unique(row_indices)) != length(row_indices)
